@@ -1,0 +1,35 @@
+﻿
+/* start */
+.start-wrap{position: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: auto; 
+	}
+.start{
+	overflow: hidden;
+}
+/* Logotype */
+.logo-wrap{	
+  	width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: auto;  
+
+}
+.logo{
+	height:220px; 
+    width:100px; 
+	overflow: hidden;
+	
+	
+}
+.logo-img{
+	width: 100%;
+}

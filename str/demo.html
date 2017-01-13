@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<title></title>
+</head>
+<body>
+<!-- begin homePage -->
+	<div data-role="page" id="curse"    datafullscreen="true" >
+		<div data-role="header" data-position="fixed" >
+			<a href="#quotations" data-icon="user"  data-transition="slide"> Имя пользователя</a>
+			<a href="#" data-icon="gear"  data-transition="slide" class="ui-btn-right">Настройки</a>
+			<br>
+			<h1></h1>
+			<div data-role="navbar">
+				<ul>
+					<li><a href="#curse"  data-transition="slide" class="ui-btn-active ui-state-persist" >Курс</a></li>
+					<li><a href="#about"  data-transition="slide">Лектор</a></li>
+				</ul>
+			</div>
+		</div>
+		<div data-role="main" class="ui-content main-page">
+			<div>
+				<center><h1>Деловой английский</h1></center>
+				<iframe width="100%" height="75" src="https://www.youtube.com/embed/k0HnepyLlYo" frameborder="0" allowfullscreen></iframe>
+				<font face="Verdana" size="2" >
+				<br>
+				<br>				
+				Курс "Деловой английский язык" изучается с целью  повышения исходного
+				уровня владения английским языком (уровень В1), 
+				достигнутого на предыдущей ступени образования, 
+				и овладение обучающимся необходимым и достаточным уровнем коммуникативной компетенции 
+				для решения социально-коммуникативных задач в различных областях бытовой, 
+				культурной, профессиональной и научной деятельности при общении с
+				зарубежными партнерами, а также для дальнейшего самообразования.</font>
+							</div>
+				<a href="#popup" data-role="button">Старт</a>
+			</div>
+							
+		
+		<div data-role="footer"  data-id="main-menu" data-position="fixed">
+			
+		</div>
+
+	</div>
+<!-- end homePage -->
+
+<!-- begin aboutPage -->
+	<div data-role="page" id="about"  >
+    	<div data-role="header" data-position="fixed" data-add-back-btn="true"  data-back-btn-text="Назад" data-back-btn-theme="a">
+      		<h1>Авторы курса</h1>
+    	</div>
+    	<div data-role="main" class="ui-content">
+      		<h3>Лекторы</h3>
+			<div class="ui-grid-a">
+    	    		<div class="ui-block-a"><img src="img/book.png" ></div>
+        			<div class="ui-block-b">Царан А.А.</div>
+        		</div>
+				<h3>Разработчики</h3>
+			<div class="ui-grid-a">
+    	    		<div class="ui-block-a"><img src="img/book.png" ></div>
+        			<div class="ui-block-b">Царан А.А.</div>
+        		</div>      		
+		
+  	</div>
+<!-- end aboutPage -->
+	
+</body>
+
+</html>
